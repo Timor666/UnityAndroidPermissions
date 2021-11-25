@@ -1,0 +1,211 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df3cd12e507eec64bb52b7f0f2b82e30, type: 3}
+  m_Name: PermissionInfos
+  m_EditorClassIdentifier: 
+  Infos:
+  - Describe: "\u5141\u8BB8\u8BFB\u5199\u8BBF\u95EEProperties\u8868\u5728checkin\u6570\u636E\u5E93\u4E2D\uFF0C\u6539\u503C\u53EF\u4EE5\u4FEE\u6539\u4E0A\u4F20"
+    FullName: android.permission.ACCESS_CHECKIN_PROPERTIES
+  - Describe: "\u5141\u8BB8\u4E00\u4E2A\u7A0B\u5E8F\u8BBF\u95EECellID\u6216WiFi\u70ED\u70B9\u6765\u83B7\u53D6\u7C97\u7565\u7684\u4F4D\u7F6E"
+    FullName: android.permission.ACCESS_COARSE_LOCATION
+  - Describe: "\u5141\u8BB8\u4E00\u4E2A\u7A0B\u5E8F\u8BBF\u95EE\u7CBE\u826F\u4F4D\u7F6E(\u5982GPS)"
+    FullName: android.permission.ACCESS_FINE_LOCATION
+  - Describe: "\u5141\u8BB8\u5E94\u7528\u7A0B\u5E8F\u8BBF\u95EE\u989D\u5916\u7684\u4F4D\u7F6E\u63D0\u4F9B\u547D\u4EE4"
+    FullName: android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u521B\u5EFA\u6A21\u62DF\u4F4D\u7F6E\u63D0\u4F9B\u7528\u4E8E\u6D4B\u8BD5"
+    FullName: android.permission.ACCESS_MOCK_LOCATION
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u8BBF\u95EE\u6709\u5173GSM\u7F51\u7EDC\u4FE1\u606F"
+    FullName: android.permission.ACCESS_NETWORK_STATE
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u4F7F\u7528SurfaceFlinger\u5E95\u5C42\u7279\u6027"
+    FullName: android.permission.ACCESS_SURFACE_FLINGER
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u8BBF\u95EEWi-Fi\u7F51\u7EDC\u72B6\u6001\u4FE1\u606F"
+    FullName: android.permission.ACCESS_WIFI_STATE
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u53D1\u5E03\u7CFB\u7EDF\u7EA7\u670D\u52A1"
+    FullName: android.permission.ADD_SYSTEM_SERVICE
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u66F4\u65B0\u624B\u673A\u7535\u6C60\u7EDF\u8BA1\u4FE1\u606F"
+    FullName: android.permission.BATTERY_STATS
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u8FDE\u63A5\u5230\u5DF2\u914D\u5BF9\u7684\u84DD\u7259\u8BBE\u5907"
+    FullName: android.permission.BLUETOOTH
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u53D1\u73B0\u548C\u914D\u5BF9\u84DD\u7259\u8BBE\u5907"
+    FullName: android.permission.BLUETOOTH_ADMIN
+  - Describe: "\u8BF7\u6C42\u80FD\u591F\u7981\u7528\u8BBE\u5907(\u975E\u5E38\u5371\u9669)"
+    FullName: android.permission.BRICK
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u5E7F\u64AD\u4E00\u4E2A\u63D0\u793A\u6D88\u606F\u5728\u4E00\u4E2A\u5E94\u7528\u7A0B\u5E8F\u5305\u5DF2\u7ECF\u79FB\u9664\u540E"
+    FullName: android.permission.BROADCAST_PACKAGE_REMOVED
+  - Describe: "\u5141\u8BB8\u4E00\u4E2A\u7A0B\u5E8F\u5E7F\u64AD\u5E38\u7528intents"
+    FullName: android.permission.BROADCAST_STICKY
+  - Describe: "\u5141\u8BB8\u4E00\u4E2A\u7A0B\u5E8F\u521D\u59CB\u5316\u4E00\u4E2A\u7535\u8BDD\u62E8\u53F7\u4E0D\u9700\u901A\u8FC7\u62E8\u53F7\u7528\u6237\u754C\u9762\u9700\u8981\u7528\u6237\u786E\u8BA4"
+    FullName: android.permission.CALL_PHONE
+  - Describe: "\u5141\u8BB8\u4E00\u4E2A\u7A0B\u5E8F\u62E8\u6253\u4EFB\u4F55\u53F7\u7801\uFF0C\u5305\u542B\u7D27\u6025\u53F7\u7801\u65E0\u9700\u901A\u8FC7\u62E8\u53F7\u7528\u6237\u754C\u9762\u9700\u8981\u7528\u6237\u786E\u8BA4"
+    FullName: android.permission.CALL_PRIVILEGED
+  - Describe: "\u8BF7\u6C42\u8BBF\u95EE\u4F7F\u7528\u7167\u76F8\u8BBE\u5907"
+    FullName: android.permission.CAMERA
+  - Describe: "\u5141\u8BB8\u4E00\u4E2A\u7A0B\u5E8F\u662F\u5426\u6539\u53D8\u4E00\u4E2A\u7EC4\u4EF6\u6216\u5176\u4ED6\u7684\u542F\u7528\u6216\u7981\u7528"
+    FullName: android.permission.CHANGE_COMPONENT_ENABLED_STATE
+  - Describe: "\u5141\u8BB8\u4E00\u4E2A\u7A0B\u5E8F\u4FEE\u6539\u5F53\u524D\u8BBE\u7F6E\uFF0C\u5982\u672C\u5730\u5316"
+    FullName: ndroid.permission.CHANGE_CONFIGURATION
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u6539\u53D8\u7F51\u7EDC\u8FDE\u63A5\u72B6\u6001"
+    FullName: android.permission.CHANGE_NETWORK_STATE
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u6539\u53D8Wi-Fi\u8FDE\u63A5\u72B6\u6001"
+    FullName: android.permission.CHANGE_WIFI_STATE
+  - Describe: "\u5141\u8BB8\u4E00\u4E2A\u7A0B\u5E8F\u6E05\u695A\u7F13\u5B58\u4ECE\u6240\u6709\u5B89\u88C5\u7684\u7A0B\u5E8F\u5728\u8BBE\u5907\u4E2D"
+    FullName: android.permission.CLEAR_APP_CACHE
+  - Describe: "\u5141\u8BB8\u4E00\u4E2A\u7A0B\u5E8F\u6E05\u9664\u7528\u6237\u8BBE\u7F6E"
+    FullName: android.permission.CLEAR_APP_USER_DATA
+  - Describe: "\u5141\u8BB8\u542F\u7528\u7981\u6B62\u4F4D\u7F6E\u66F4\u65B0\u63D0\u793A\u4ECE\u65E0\u7EBF\u6A21\u5757"
+    FullName: android.permission.CONTROL_LOCATION_UPDATES
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u5220\u9664\u7F13\u5B58\u6587\u4EF6"
+    FullName: android.permission.DELETE_CACHE_FILES
+  - Describe: "\u5141\u8BB8\u4E00\u4E2A\u7A0B\u5E8F\u5220\u9664\u5305"
+    FullName: android.permission.DELETE_PACKAGES
+  - Describe: "\u5141\u8BB8\u8BBF\u95EE\u5E95\u5C42\u7535\u6E90\u7BA1\u7406"
+    FullName: android.permission.DEVICE_POWER
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8FRW\u8BCA\u65AD\u8D44\u6E90"
+    FullName: android.permission.DIAGNOSTIC
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u7981\u7528\u952E\u76D8\u9501"
+    FullName: android.permission.DISABLE_KEYGUARD
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u8FD4\u56DE\u72B6\u6001\u6293\u53D6\u4FE1\u606F\u4ECE\u7CFB\u7EDF\u670D\u52A1"
+    FullName: android.permission.DUMP
+  - Describe: "\u5141\u8BB8\u4E00\u4E2A\u7A0B\u5E8F\u6269\u5C55\u6536\u7F29\u5728\u72B6\u6001\u680F,android\u5F00\u53D1\u7F51\u63D0\u793A\u5E94\u8BE5\u662F\u4E00\u4E2A\u7C7B\u4F3CWindows
+      Mobile\u4E2D\u7684\u6258\u76D8\u7A0B\u5E8F"
+    FullName: android.permission.EXPAND_STATUS_BAR
+  - Describe: "\u4F5C\u4E3A\u4E00\u4E2A\u5DE5\u5382\u6D4B\u8BD5\u7A0B\u5E8F\uFF0C\u8FD0\u884C\u5728root\u7528\u6237"
+    FullName: android.permission.FACTORY_TEST
+  - Describe: "\u8BBF\u95EE\u95EA\u5149\u706F,android\u5F00\u53D1\u7F51\u63D0\u793AHTC
+      Dream\u4E0D\u5305\u542B\u95EA\u5149\u706F"
+    FullName: android.permission.FLASHLIGHT
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u5F3A\u884C\u4E00\u4E2A\u540E\u9000\u64CD\u4F5C\u662F\u5426\u5728\u9876\u5C42activities"
+    FullName: android.permission.FORCE_BACK
+  - Describe: "\u6682\u65F6\u4E0D\u4E86\u89E3\u8FD9\u662F\u505A\u4EC0\u4E48\u4F7F\u7528\u7684\uFF0Candroid\u5F00\u53D1\u7F51\u5206\u6790\u53EF\u80FD\u662F\u4E00\u4E2A\u9884\u7559\u6743\u9650."
+    FullName: android.permission.FOTA_UPDATE
+  - Describe: "\u8BBF\u95EE\u4E00\u4E2A\u5E10\u6237\u5217\u8868\u5728Accounts Service\u4E2D"
+    FullName: android.permission.GET_ACCOUNTS
+  - Describe: "\u5141\u8BB8\u4E00\u4E2A\u7A0B\u5E8F\u83B7\u53D6\u4EFB\u4F55package\u5360\u7528\u7A7A\u95F4\u5BB9\u91CF"
+    FullName: android.permission.GET_PACKAGE_SIZE
+  - Describe: "\u5141\u8BB8\u4E00\u4E2A\u7A0B\u5E8F\u83B7\u53D6\u4FE1\u606F\u6709\u5173\u5F53\u524D\u6216\u6700\u8FD1\u8FD0\u884C\u7684\u4EFB\u52A1\uFF0C\u4E00\u4E2A\u7F29\u7565\u7684\u4EFB\u52A1\u72B6\u6001\uFF0C\u662F\u5426\u6D3B\u52A8\u7B49\u7B49"
+    FullName: android.permission.GET_TASKS
+  - Describe: "\u5141\u8BB8\u8BBF\u95EE\u786C\u4EF6"
+    FullName: android.permission.HARDWARE_TEST
+  - Describe: "\u5141\u8BB8\u4E00\u4E2A\u7A0B\u5E8F\u622A\u83B7\u7528\u6237\u4E8B\u4EF6\u5982\u6309\u952E\u3001\u89E6\u6478\u3001\u8F68\u8FF9\u7403\u7B49\u7B49\u5230\u4E00\u4E2A\u65F6\u95F4\u6D41\uFF0Candroid
+      \u5F00\u53D1\u7F51\u63D0\u9192\u7B97\u662Fhook\u6280\u672F\u5427"
+    FullName: android.permission.INJECT_EVENTS
+  - Describe: "\u5141\u8BB8\u4E00\u4E2A\u7A0B\u5E8F\u5B89\u88C5packages"
+    FullName: android.permission.INSTALL_PACKAGES
+  - Describe: "\u5141\u8BB8\u6253\u5F00\u7A97\u53E3\u4F7F\u7528\u7CFB\u7EDF\u7528\u6237\u754C\u9762"
+    FullName: android.permission.INTERNAL_SYSTEM_WINDOW
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u6253\u5F00\u7F51\u7EDC\u5957\u63A5\u5B57"
+    FullName: android.permission.INTERNET
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u7BA1\u7406(\u521B\u5EFA\u3001\u50AC\u540E\u3001z-
+      order\u9ED8\u8BA4\u5411z\u8F74\u63A8\u79FB)\u7A0B\u5E8F\u5F15\u7528\u5728\u7A97\u53E3\u7BA1\u7406\u5668\u4E2D"
+    FullName: android.permission.MANAGE_APP_TOKENS
+  - Describe: "\u76EE\u524D\u8FD8\u6CA1\u6709\u660E\u786E\u7684\u89E3\u91CA\uFF0Candroid\u5F00\u53D1\u7F51\u5206\u6790\u53EF\u80FD\u662F\u6E05\u9664\u4E00\u5207\u6570\u636E\uFF0C\u7C7B\u4F3C\u786C\u683C\u673A"
+    FullName: android.permission.MASTER_CLEAR
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u4FEE\u6539\u5168\u5C40\u97F3\u9891\u8BBE\u7F6E"
+    FullName: android.permission.MODIFY_AUDIO_SETTINGS
+  - Describe: "\u5141\u8BB8\u4FEE\u6539\u8BDD\u673A\u72B6\u6001\uFF0C\u5982\u7535\u6E90\uFF0C\u4EBA\u673A\u63A5\u53E3\u7B49"
+    FullName: android.permission.MODIFY_PHONE_STATE
+  - Describe: "\u5141\u8BB8\u6302\u8F7D\u548C\u53CD\u6302\u8F7D\u6587\u4EF6\u7CFB\u7EDF\u53EF\u79FB\u52A8\u5B58\u50A8"
+    FullName: android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+  - Describe: "\u5141\u8BB8\u4E00\u4E2A\u7A0B\u5E8F\u8BBE\u7F6E\u4ED6\u7684activities\u663E\u793A"
+    FullName: android.permission.PERSISTENT_ACTIVITY
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u76D1\u89C6\u3001\u4FEE\u6539\u6709\u5173\u64AD\u51FA\u7535\u8BDD"
+    FullName: android.permission.PROCESS_OUTGOING_CALLS
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u8BFB\u53D6\u7528\u6237\u65E5\u5386\u6570\u636E"
+    FullName: android.permission.READ_CALENDAR
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u8BFB\u53D6\u7528\u6237\u8054\u7CFB\u4EBA\u6570\u636E"
+    FullName: android.permission.READ_CONTACTS
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u5C4F\u5E55\u6CE2\u6216\u548C\u66F4\u591A\u5E38\u89C4\u7684\u8BBF\u95EE\u5E27\u7F13\u51B2\u6570\u636E"
+    FullName: android.permission.READ_FRAME_BUFFER
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u8FD4\u56DE\u5F53\u524D\u6309\u952E\u72B6\u6001"
+    FullName: android.permission.READ_INPUT_STATE
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u8BFB\u53D6\u5E95\u5C42\u7CFB\u7EDF\u65E5\u5FD7\u6587\u4EF6"
+    FullName: android.permission.READ_LOGS
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u8BFB\u53D6\u6240\u6709\u8005\u6570\u636E"
+    FullName: android.permission.READ_OWNER_DATA
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u8BFB\u53D6\u77ED\u4FE1\u606F"
+    FullName: android.permission.READ_SMS
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u8BFB\u53D6\u540C\u6B65\u8BBE\u7F6E"
+    FullName: android.permission.READ_SYNC_SETTINGS
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u8BFB\u53D6\u540C\u6B65\u72B6\u6001"
+    FullName: android.permission.READ_SYNC_STATS
+  - Describe: "\u8BF7\u6C42\u80FD\u591F\u91CD\u65B0\u542F\u52A8\u8BBE\u5907"
+    FullName: android.permission.REBOOT
+  - Describe: "\u5141\u8BB8\u4E00\u4E2A\u7A0B\u5E8F\u63A5\u6536\u5230 ACTION_BOOT_COMPLETED\u5E7F\u64AD\u5728\u7CFB\u7EDF\u5B8C\u6210\u542F\u52A8"
+    FullName: android.permission.RECEIVE_BOOT_COMPLETED
+  - Describe: "\u5141\u8BB8\u4E00\u4E2A\u7A0B\u5E8F\u76D1\u63A7\u5C06\u6536\u5230MMS\u5F69\u4FE1,\u8BB0\u5F55\u6216\u5904\u7406"
+    FullName: android.permission.RECEIVE_MMS
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u76D1\u63A7\u4E00\u4E2A\u5C06\u6536\u5230\u77ED\u4FE1\u606F\uFF0C\u8BB0\u5F55\u6216\u5904\u7406"
+    FullName: android.permission.RECEIVE_SMS
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u76D1\u63A7\u5C06\u6536\u5230WAP PUSH\u4FE1\u606F"
+    FullName: android.permission.RECEIVE_WAP_PUSH
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u5F55\u5236\u97F3\u9891"
+    FullName: android.permission.RECORD_AUDIO
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u6539\u53D8Z\u8F74\u6392\u5217\u4EFB\u52A1"
+    FullName: android.permission.REORDER_TASKS
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u91CD\u65B0\u542F\u52A8\u5176\u4ED6\u7A0B\u5E8F"
+    FullName: android.permission.RESTART_PACKAGES
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u53D1\u9001SMS\u77ED\u4FE1"
+    FullName: android.permission.SEND_SMS
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u76D1\u63A7\u6216\u63A7\u5236activities\u5DF2\u7ECF\u542F\u52A8\u5168\u5C40\u7CFB\u7EDF\u4E2D"
+    FullName: android.permission.SET_ACTIVITY_WATCHER
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u63A7\u5236\u662F\u5426\u6D3B\u52A8\u95F4\u63A5\u5B8C\u6210\u5728\u5904\u4E8E\u540E\u53F0\u65F6"
+    FullName: android.permission.SET_ALWAYS_FINISH
+  - Describe: "\u4FEE\u6539\u5168\u5C40\u4FE1\u606F\u6BD4\u4F8B"
+    FullName: android.permission.SET_ANIMATION_SCALE
+  - Describe: "\u914D\u7F6E\u4E00\u4E2A\u7A0B\u5E8F\u7528\u4E8E\u8C03\u8BD5"
+    FullName: android.permission.SET_DEBUG_APP
+  - Describe: "\u5141\u8BB8\u5E95\u5C42\u8BBF\u95EE\u8BBE\u7F6E\u5C4F\u5E55\u65B9\u5411\u548C\u5B9E\u9645\u65CB\u8F6C"
+    FullName: android.permission.SET_ORIENTATION
+  - Describe: "\u5141\u8BB8\u4E00\u4E2A\u7A0B\u5E8F\u4FEE\u6539\u5217\u8868\u53C2\u6570PackageManager.addPackageToPreferred()
+      \u548CPackageManager.removePackageFromPreferred()\u65B9\u6CD5"
+    FullName: android.permission.SET_PREFERRED_APPLICATIONS
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u5F53\u524D\u8FD0\u884C\u7A0B\u5E8F\u5F3A\u884C\u5230\u524D\u53F0"
+    FullName: android.permission.SET_PROCESS_FOREGROUND
+  - Describe: "\u5141\u8BB8\u8BBE\u7F6E\u6700\u5927\u7684\u8FD0\u884C\u8FDB\u7A0B\u6570\u91CF"
+    FullName: android.permission.SET_PROCESS_LIMIT
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u8BBE\u7F6E\u65F6\u95F4\u533A\u57DF"
+    FullName: android.permission.SET_TIME_ZONE
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u8BBE\u7F6E\u58C1\u7EB8"
+    FullName: android.permission.SET_WALLPAPER
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u8BBE\u7F6E\u58C1\u7EB8"
+    FullName: android.permission.SET_WALLPAPER_HINTS
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u8BF7\u6C42\u53D1\u9001\u4FE1\u53F7\u5230\u6240\u6709\u663E\u793A\u7684\u8FDB\u7A0B\u4E2D"
+    FullName: android.permission.SIGNAL_PERSISTENT_PROCESSES
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u6253\u5F00\u3001\u5173\u95ED\u6216\u7981\u7528\u72B6\u6001\u680F\u53CA\u56FE\u6807"
+    FullName: android.permission.STATUS_BAR
+  - Describe: "\u5141\u8BB8\u4E00\u4E2A\u7A0B\u5E8F\u8BBF\u95EE\u8BA2\u9605RSS Feed\u5185\u5BB9\u63D0\u4F9B"
+    FullName: android.permission.SUBSCRIBED_FEEDS_READ
+  - Describe: "\u7CFB\u7EDF\u6682\u65F6\u4FDD\u7559\u6539\u8BBE\u7F6E,android\u5F00\u53D1\u7F51\u8BA4\u4E3A\u672A\u6765\u7248\u672C\u4F1A\u52A0\u5165\u8BE5\u529F\u80FD\u3002"
+    FullName: android.permission.SUBSCRIBED_FEEDS_WRITE
+  - Describe: "\u5141\u8BB8\u4E00\u4E2A\u7A0B\u5E8F\u6253\u5F00\u7A97\u53E3\u4F7F\u7528
+      TYPE_SYSTEM_ALERT\uFF0C\u663E\u793A\u5728\u5176\u4ED6\u6240\u6709\u7A0B\u5E8F\u7684\u9876\u5C42"
+    FullName: android.permission.SYSTEM_ALERT_WINDOW
+  - Describe: "\u5141\u8BB8\u8BBF\u95EE\u632F\u52A8\u8BBE\u5907"
+    FullName: android.permission.VIBRATE
+  - Describe: "\u5141\u8BB8\u4F7F\u7528PowerManager\u7684 WakeLocks\u4FDD\u6301\u8FDB\u7A0B\u5728\u4F11\u7720\u65F6\u4ECE\u5C4F\u5E55\u6D88\u5931"
+    FullName: android.permission.WAKE_LOCK
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u5199\u5165API\u8BBE\u7F6E"
+    FullName: android.permission.WRITE_APN_SETTINGS
+  - Describe: "\u5141\u8BB8\u4E00\u4E2A\u7A0B\u5E8F\u5199\u5165\u4F46\u4E0D\u8BFB\u53D6\u7528\u6237\u65E5\u5386\u6570\u636E"
+    FullName: android.permission.WRITE_CALENDAR
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u5199\u5165\u4F46\u4E0D\u8BFB\u53D6\u7528\u6237\u8054\u7CFB\u4EBA\u6570\u636E"
+    FullName: android.permission.WRITE_CONTACTS
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u4FEE\u6539Google\u670D\u52A1\u5730\u56FE"
+    FullName: android.permission.WRITE_GSERVICES
+  - Describe: "\u5141\u8BB8\u4E00\u4E2A\u7A0B\u5E8F\u5199\u5165\u4F46\u4E0D\u8BFB\u53D6\u6240\u6709\u8005\u6570\u636E"
+    FullName: android.permission.WRITE_OWNER_DATA
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u8BFB\u53D6\u6216\u5199\u5165\u7CFB\u7EDF\u8BBE\u7F6E"
+    FullName: android.permission.WRITE_SETTINGS
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u5199\u77ED\u4FE1"
+    FullName: android.permission.WRITE_SMS
+  - Describe: "\u5141\u8BB8\u7A0B\u5E8F\u5199\u5165\u540C\u6B65\u8BBE\u7F6E"
+    FullName: android.permission.WRITE_SYNC_SETTINGS
